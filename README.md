@@ -10,10 +10,10 @@
 
 ## 运行步骤：
 
-git clone https://github.com/RolleXXX/tinyhttpd.git;
-cd tinyhttpd;
-make;
-./tinyhttp;
+git clone https://github.com/RolleXXX/tinyhttpd.git
+cd tinyhttpd
+make
+./tinyhttp
 
 
 
@@ -33,7 +33,7 @@ HTTP请求页面默认为htdocs文件夹下的index.html文件和.cgi文件
 
 
 ## 基本流程图
+![20200402164118320](https://user-images.githubusercontent.com/107916833/201569194-853808fd-f38e-434c-8712-a9d470dbcb83.png)
 
-![20200402164118320](C:\Users\92035\Desktop\20200402164118320.png)
 
 [服务器项目--Tinyhttpd_with_threadpool_epoll](https://blog.csdn.net/qq_39751437/article/details/105265301)

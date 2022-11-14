@@ -10,10 +10,10 @@
 
 ## 运行步骤：
 
-git clone https://github.com/RolleXXX/tinyhttpd.git \n
-cd tinyhttpd \n
-make \n 
-./tinyhttp \n
+git clone https://github.com/RolleXXX/tinyhttpd.git;
+cd tinyhttpd;
+make;
+./tinyhttp;
 
 
 

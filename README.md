@@ -1,4 +1,5 @@
 # tinyhttpd
+
 经典的tinyhttpd项目，配套有中文注释   测试CGI时需要本机安装PERL，同时安装perl-cgi
 
 本项目是学习经典的tinyhttpd项目，对于网络编程的初学者来说是很不错的练手项目
@@ -7,8 +8,32 @@
 
 建议源码阅读顺序： main -> startup -> accept_request -> execute_cgi
 
-运行步骤：
+## 运行步骤：
+
+git clone https://github.com/RolleXXX/tinyhttpd.git
 cd tinyhttpd
+make
 ./tinyhttp
 
-![head](https://user-images.githubusercontent.com/107916833/201566822-5aa966d0-dd25-4d1d-9f0f-be1029b3b80e.jpg)
+
+
+## 运行效果展示：
+
+<img src="https://user-images.githubusercontent.com/107916833/201567258-43fa899f-e112-48e0-9e99-f414d2464a16.png" alt="微信图片_20221114111123" style="zoom:80%;" />
+<img src="https://user-images.githubusercontent.com/107916833/201567260-fe804f8b-7512-4e8d-aabd-e11b41c34cb0.png" alt="微信图片_20221114111126" style="zoom:80%;" />
+
+
+
+## 注意事项：
+
+端口号设置为8000，可在main函数中修改，若将port设为0，则自动分配端口
+
+HTTP请求页面默认为htdocs文件夹下的index.html文件和.cgi文件
+
+
+
+## 基本流程图
+
+![20200402164118320](C:\Users\92035\Desktop\20200402164118320.png)
+
+[服务器项目--Tinyhttpd_with_threadpool_epoll](
